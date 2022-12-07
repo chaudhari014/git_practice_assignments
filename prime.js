@@ -4,11 +4,11 @@ function primenumber(n){
     if(n%i==0){
       count++;
     }
+  }
     if(count==2){
     console.log(n,"prime number")
   }
   else{
     console.log(n,"number is not prime")
-  }
   }
 }
